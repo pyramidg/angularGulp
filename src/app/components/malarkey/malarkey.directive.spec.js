@@ -20,7 +20,7 @@
         return $q.when([{}, {}, {}, {}, {}, {}]);
       });
 
-      el = angular.element('<acme-malarkey extra-values="[\'Poney\', \'Monkey\']"></acme-malarkey>');
+      el = angular.element('<acme-malarkey extra-values="[\'Pyramid\', \'Sherrétta\']"></acme-malarkey>');
 
       $compile(el)($rootScope.$new());
       $rootScope.$digest();
