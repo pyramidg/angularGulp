@@ -5,3 +5,4 @@
     .module('yoAngular', ['ngAnimate', 'ui.router', 'ui.bootstrap', 'toastr']);
 
 })();
+
